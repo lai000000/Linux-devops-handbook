@@ -1,6 +1,6 @@
 # Linux-devops-handbook
 
-Linux 运维实践手册：从 Linux 基础到 Docker / Kubernetes 的系统化学习笔记与脚本。
+Linux 与 DevOps 实操手册：包含 Shell 脚本、Docker、K8s 配置、故障排错与学习笔记，从 Linux 基础到容器编排的系统化实践指南。
 
 ## 目录结构
 
