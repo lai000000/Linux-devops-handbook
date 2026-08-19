@@ -1,0 +1,53 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 日志
+*.log
+logs/
+
+# 密钥与凭据（严禁提交）
+*.pem
+*.key
+*.p12
+*.jks
+*.pfx
+kubeconfig*
+credentials*
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Go
+*.exe
+*.test
+*.out
+
+# 编译 / 产物
+*.o
+*.class
+*.jar
+
+# 临时文件
+tmp/
+*.tmp
+*.bak
