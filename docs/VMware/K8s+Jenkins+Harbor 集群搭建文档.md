@@ -6,8 +6,6 @@
 
 ## 一、集群规划表
 
-表格
-
 | 角色             | 主机名            | IP 地址           | CPU | 内存  | 磁盘  | 运行服务            |
 | :------------- | :------------- | :-------------- | :-- | :-- | :-- | :-------------- |
 | k8s‑master01   | k8s‑master01   | 192.168.244.120 | 2 核 | 4G  | 40G | k8s 控制平面、docker |
@@ -52,7 +50,6 @@
 
 ### 1. 修复 CentOS7 yum 源（官方源已下线）
 
-bash
 
 ```
 mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
@@ -62,8 +59,6 @@ yum makecache
 ```
 
 ### 2. 关闭防火墙、SELinux
-
-bash
 
 ```
 systemctl stop firewalld
@@ -76,8 +71,6 @@ getenforce
 
 ### 3. 关闭 swap（K8s 强制要求）
 
-bash
-
 ```
 swapoff -a
 sed -i '/swap/s/^/#/' /etc/fstab
@@ -86,8 +79,6 @@ free -h
 
 ### 4. 时间同步 chrony
 
-bash
-
 ```
 yum install -y chrony
 systemctl start chronyd
@@ -95,9 +86,7 @@ systemctl enable chronyd
 chronyc sources
 ```
 
-### 5. 预写入集群 hosts 解析（克隆后所有机器自带）
-
-bash
+### 5. 预写入集群 hosts 解析
 
 ```
 > /etc/hosts
@@ -112,8 +101,6 @@ cat /etc/hosts
 
 ### 6. 安装 docker
 
-bash
-
 ```
 yum remove -y docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
 yum install -y yum-utils device-mapper-persistent-data lvm2
@@ -124,9 +111,6 @@ systemctl enable docker
 ```
 
 ### 7. docker 配置加速 + 信任 harbor 仓库
-
-bash
-
 ```
 cat > /etc/docker/daemon.json <<EOF
 {
@@ -147,29 +131,21 @@ docker --version
 
 ### 8. 关闭 NetworkManager 服务
 
-bash
-
 ```
 systemctl stop NetworkManager
 systemctl disable NetworkManager
 ```
-
 ### 9. 模板机关机，准备克隆
-
-bash
 
 ```
 poweroff
 ```
-
 ## 四、克隆完成后，每台机器单独配置
 
 > 4 台机器开机，分别执行下面操作，只修改 IP 与本机主机名，其余配置克隆已经继承。
-
 ### 网卡配置文件 `/etc/sysconfig/network-scripts/ifcfg‑ens33`
 
 > 保留文件内原有 UUID，只修改 IPADDR，其余参数复制。
-
 
 
 ```
@@ -245,3 +221,5 @@ ping www.baidu.com
 3. docker 的`insecure‑registries`写`192.168.244.123`，k8s 节点拉 harbor 镜像才不会报错。
 4. jenkins‑harbor 机器磁盘调整为 80G，存放镜像与构建产物。
 5. 本集群为学习环境，单 Master 无高可用，禁止生产使用。
+
+![](docs/VMware/assets/Pasted%20image%2020260820104836.png)
