@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/k8s/1.md",
+                "file": "docs/VMware/K8s+Jenkins+Harbor 集群搭建文档（.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1"
+              "title": "K8s+Jenkins+Harbor 集群搭建文档（"
             }
           }
         ]
@@ -185,10 +185,11 @@
   },
   "active": "b835e75dcfa8cf79",
   "lastOpenFiles": [
+    "docs/VMware/assets/Pasted image 20260820101400.png",
+    "docs/VMware/K8s+Jenkins+Harbor 集群搭建文档（.md",
+    "docs/k8s/1.md",
     "docs/k8s/assets/Pasted image 20260820101421.png",
     "docs/k8s/assets",
-    "docs/VMware/VMware虚拟机创建.md",
-    "docs/VMware/assets/Pasted image 20260820101400.png",
     "docs/VMware/assets/Pasted image 20260820101055.png",
     "assets/Pasted.md",
     "docs/VMware/assets/Pasted image 20260819175135.png",
@@ -199,7 +200,6 @@
     "README.md",
     "未命名.base",
     "docs/VMware/assets",
-    "Pasted image 20260819174949.png",
-    "docs/k8s/1.md"
+    "Pasted image 20260819174949.png"
   ]
 }
