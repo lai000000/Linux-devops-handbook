@@ -223,4 +223,4 @@ ping www.baidu.com
 5. 本集群为学习环境，单 Master 无高可用，禁止生产使用。
 
 图片图片
-![](docs/VMware/assets/Pasted%20image%2020260820104836.png)
+![](assets/Pasted%20image%2020260820104836.png)
