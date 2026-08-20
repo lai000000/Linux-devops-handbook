@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "09619809ad0d661b",
+        "id": "78cc29f0550f6928",
         "type": "tabs",
         "children": [
           {
-            "id": "7fb0bedfacdbf0d6",
+            "id": "b835e75dcfa8cf79",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/VMware/assets/Pasted image 20260819175925.png"
+                "file": "docs/k8s/1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260819175925"
+              "icon": "lucide-file",
+              "title": "1"
             }
           }
         ]
@@ -181,16 +183,21 @@
       "bases:新建数据库": false
     }
   },
-  "active": "7fb0bedfacdbf0d6",
+  "active": "b835e75dcfa8cf79",
   "lastOpenFiles": [
+    "docs/k8s/assets/Pasted image 20260820101421.png",
+    "docs/k8s/assets",
     "docs/VMware/VMware虚拟机创建.md",
+    "docs/VMware/assets/Pasted image 20260820101400.png",
+    "docs/VMware/assets/Pasted image 20260820101055.png",
+    "assets/Pasted.md",
+    "docs/VMware/assets/Pasted image 20260819175135.png",
     "docs/VMware/assets/Pasted image 20260819175808.png",
-    "docs/VMware/assets/Pasted image 20260820095253.png",
     "docs/VMware/assets/Pasted image 20260819175925.png",
+    "docs/VMware/assets/Pasted image 20260820095253.png",
     "docs/VMware/assets/Pasted image 20260819175723.png",
     "README.md",
     "未命名.base",
-    "docs/VMware/assets/Pasted image 20260819175135.png",
     "docs/VMware/assets",
     "Pasted image 20260819174949.png",
     "docs/k8s/1.md"
