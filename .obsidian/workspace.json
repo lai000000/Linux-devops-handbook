@@ -180,11 +180,13 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "publish:发布更改": false
     }
   },
   "active": "b835e75dcfa8cf79",
   "lastOpenFiles": [
+    "docs/VMware/assets/Pasted image 20260820113210.png",
     "docs/VMware/assets/Pasted image 20260820104836.png",
     "docs/VMware/assets/Pasted image 20260820101400.png",
     "docs/VMware/K8s+Jenkins+Harbor 集群搭建文档.md",

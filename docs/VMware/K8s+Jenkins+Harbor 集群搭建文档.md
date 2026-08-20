@@ -222,5 +222,5 @@ ping www.baidu.com
 4. jenkins‑harbor 机器磁盘调整为 80G，存放镜像与构建产物。
 5. 本集群为学习环境，单 Master 无高可用，禁止生产使用。
 
-图片图片
-![](assets/Pasted%20image%2020260820104836.png)
+图片图片111
+![](assets/Pasted%20image%2020260820113210.png)
