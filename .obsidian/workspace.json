@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "3636cf3169222eda",
+    "type": "split",
+    "children": [
+      {
+        "id": "09619809ad0d661b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fb0bedfacdbf0d6",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "docs/VMware/assets/Pasted image 20260819175925.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260819175925"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4ea102a47399fdc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "305db95aef0cfcd1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "de8891af393f426d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a7f42e730a22573c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d4beee3fde4500bd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7d8c9207382f7b2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee6b9fd8ea01840c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01d5598a081178e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/VMware/VMware虚拟机创建.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "VMware虚拟机创建 的反向链接列表"
+            }
+          },
+          {
+            "id": "fcf48c0348334cea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/VMware/VMware虚拟机创建.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "VMware虚拟机创建 的出链列表"
+            }
+          },
+          {
+            "id": "bc0e9acb74a8febf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "5c6052bd0b8b874d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2960e918488d9689",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/VMware/VMware虚拟机创建.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "VMware虚拟机创建 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "7fb0bedfacdbf0d6",
+  "lastOpenFiles": [
+    "docs/VMware/VMware虚拟机创建.md",
+    "docs/VMware/assets/Pasted image 20260819175808.png",
+    "docs/VMware/assets/Pasted image 20260820095253.png",
+    "docs/VMware/assets/Pasted image 20260819175925.png",
+    "docs/VMware/assets/Pasted image 20260819175723.png",
+    "README.md",
+    "未命名.base",
+    "docs/VMware/assets/Pasted image 20260819175135.png",
+    "docs/VMware/assets",
+    "Pasted image 20260819174949.png",
+    "docs/k8s/1.md"
+  ]
+}
